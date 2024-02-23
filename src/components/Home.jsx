@@ -1,9 +1,15 @@
 import React from 'react'
-
+import homeImage from '../images/home.jpg'
 function Home() {
   return (
-    <div>
-      <h1 className='text-primary'>HOME</h1>
+    <div style={{
+      backgroundImage: `url(${homeImage})`,
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center',
+      height: '80vh',
+    }}>
+      
     </div>
   )
 }

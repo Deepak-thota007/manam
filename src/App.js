@@ -9,13 +9,14 @@ import Title from './components/Title'
 import './App.css'
 import Problems from './components/Problems'
 import Padhakalu from './components/Padhakalu'
+import Home from './components/Home'
 
 function App() {
   return (
     <>
     <Title/>
       <Routes> 
-      {/* <Route path = '/home' element = {<Home/>}/> */}
+      <Route path = '/' element = {<Home/>}/>
          <Route path = '/base' element = {<Base/>}/>
         <Route path = '/contact' element = {<Contact/>}/>
         <Route path = '/about' element = {<About/>}/>
