@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/manam/static/css/main.8c73307e.css",
-    "main.js": "/manam/static/js/main.f79bd131.js",
+    "main.js": "/manam/static/js/main.385c5d3a.js",
     "static/js/453.f0e33eac.chunk.js": "/manam/static/js/453.f0e33eac.chunk.js",
+    "static/media/home.jpg": "/manam/static/media/home.3ef070a86772932d7b78.jpg",
     "static/media/ammavadi.jpg": "/manam/static/media/ammavadi.ea3a6fbf614c0a5c9cb9.jpg",
     "static/media/kaapu.jpg": "/manam/static/media/kaapu.c6caf2ba4e49e9159f64.jpg",
     "static/media/raithu.jpg": "/manam/static/media/raithu.630d65b6757c1e8f2a0b.jpg",
@@ -12,11 +13,11 @@
     "static/media/former.jpg": "/manam/static/media/former.0e1750fcbe1b1d9a7da2.jpg",
     "index.html": "/manam/index.html",
     "main.8c73307e.css.map": "/manam/static/css/main.8c73307e.css.map",
-    "main.f79bd131.js.map": "/manam/static/js/main.f79bd131.js.map",
+    "main.385c5d3a.js.map": "/manam/static/js/main.385c5d3a.js.map",
     "453.f0e33eac.chunk.js.map": "/manam/static/js/453.f0e33eac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c73307e.css",
-    "static/js/main.f79bd131.js"
+    "static/js/main.385c5d3a.js"
   ]
 }
