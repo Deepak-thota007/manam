@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Ranga rao",
+            "color": "secondary",
+            "phno":"9948216578",
+            "designation":"Former",
+            "timings": "24/7"
+        },
+        {
+            "id": 1,
+            "name": "Ranga rao",
+            "color": "primary",
+            "phno":"9948216578",
+            "designation":"Former",
+            "timings": "24/7"
+        },
+        {
+            "id": 1,
+            "name": "Ranga rao",
+            "color": "success",
+            "phno":"9948216578",
+            "designation":"Former",
+            "timings": "24/7"
+        },
+        {
+            "id": 1,
+            "name": "Ranga rao",
+            "color": "warning",
+            "phno":"9948216578",
+            "designation":"Former",
+            "timings": "24/7"
+        },
+        {
+            "id": 1,
+            "name": "Ranga rao",
+            "color": "danger",
+            "phno":"9948216578",
+            "designation":"Former",
+            "timings": "24/7"
+        }
+    ]
+}

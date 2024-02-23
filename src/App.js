@@ -10,6 +10,7 @@ import './App.css'
 import Problems from './components/Problems'
 import Padhakalu from './components/Padhakalu'
 import Home from './components/Home'
+import Seva from './components/Seva'
 
 function App() {
   return (
@@ -17,11 +18,12 @@ function App() {
     <Title/>
       <Routes> 
       <Route path = '/manam' element = {<Home/>}/>
-         <Route path = '/base' element = {<Base/>}/>
-        <Route path = '/contact' element = {<Contact/>}/>
-        <Route path = '/about' element = {<About/>}/>
-        <Route path = '/problem' element = {<Problems/>}/>
-        <Route path = '/polacy' element = {<Padhakalu/>}/>
+         <Route path = '/manam/base' element = {<Base/>}/>
+        <Route path = '/manam/contact' element = {<Contact/>}/>
+        <Route path = '/manam/about' element = {<About/>}/>
+        <Route path = '/manam/problem' element = {<Problems/>}/>
+        <Route path = '/manam/polacy' element = {<Padhakalu/>}/>
+        <Route path = '/manam/seva' element = {<Seva/>}/>
         <Route path = '*' element = {<NoData/>}/>
       </Routes>
     </>
