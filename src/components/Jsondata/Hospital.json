@@ -1,0 +1,38 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "seetha mahaLaksmi nursing Home",
+        "color":"success",
+        "address": "Hnauman Junction",
+        "phno": "108",
+        "doctor": "Dutta Rama chandra Rao"
+      },
+      {
+        "id": 2,
+        "name": "DhanaLakshmi nursing Home",
+        "color":"warning",
+        "address": "Hnauman Junction",
+        "phno": "108",
+        "doctor": "Balu"
+      },
+      {
+        "id": 3,
+        "name": "DhanaLakshmi nursing Home",
+        "color":"danger",
+        "address": "Hnauman Junction",
+        "phno": "108",
+        "doctor": "Balu"
+      },
+      {
+        "id": 4,
+        "name": "DhanaLakshmi nursing Home",
+        "color":"primary",
+        "address": "Hnauman Junction",
+        "phno": "108",
+        "doctor": "Balu"
+      }
+      
+
+    ]
+}
