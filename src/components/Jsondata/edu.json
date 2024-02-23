@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "details": {
+                "Name": "Deepak",
+                "Education": "MCA",
+                "BG":"O+",
+                "school":"CRR",
+                "sa":"Eluru",
+                "Dob":"23/06/1994",
+                "color":"secondary"
+            }
+        },
+        {
+            "id": 2,
+            "details": {
+                "Name": "Jaydeep",
+                "Education": "BSC",
+                "BG":"B+",
+                "school":"Arts",
+                "sa":"Rajamundry",
+                "Dob":"30/05/2002",
+                "color":"primary"
+            }
+        },
+        {
+            "id": 3,
+            "details": {
+                "Name": "Raja",
+                "Education": "Btech",
+                "BG":"O+",
+                "school":"Gudlavalleru eng",
+                "sa":"Gudlavalleru",
+                "Dob":"11/06/2000",
+                "color":"success"
+            }
+        },
+        {
+            "id": 4,
+            "details": {
+                "Name": "Hemanth",
+                "Education": "LLB",
+                "BG":"AB+",
+                "school":"DNR",
+                "sa":"Bhimavaram",
+                "Dob":"02/02/1996",
+                "color":"warning"
+            }
+        },
+        {
+            "id": 5,
+            "details": {
+                "Name": "sai Krishna",
+                "Education": "MBA",
+                "BG":"B+",
+                "school":"Chennai",
+                "sa":"Chennai",
+                "Dob":"25/12/1988",
+                "color":"danger"
+            }
+        }
+    ]
+}

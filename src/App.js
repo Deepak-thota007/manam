@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import Base from './components/Base'
+import Contact from './components/Contact'
+import About from './components/About'
+import Navbar from './components/Navbar'
+import NoData from './components/NoData'
+import Title from './components/Title'
+import './App.css'
+import Problems from './components/Problems'
+import Padhakalu from './components/Padhakalu'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Title/>
+      <Routes> 
+      {/* <Route path = '/home' element = {<Home/>}/> */}
+         <Route path = '/base' element = {<Base/>}/>
+        <Route path = '/contact' element = {<Contact/>}/>
+        <Route path = '/about' element = {<About/>}/>
+        <Route path = '/problem' element = {<Problems/>}/>
+        <Route path = '/polacy' element = {<Padhakalu/>}/>
+        <Route path = '*' element = {<NoData/>}/>
+      </Routes>
+    </>
+  )
 }
 
-export default App;
+export default App

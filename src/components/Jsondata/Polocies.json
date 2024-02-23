@@ -1,0 +1,51 @@
+
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "Amma vadi",
+        "color":"ammavadi.jpg",
+        "details": {
+          "Name": "Deepak",
+          "Education": "MCA"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Raithu Bharosa",
+        "color":"raithu.jpg",
+        "details": {
+          "Name": "John",
+          "Education": "B.Tech"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Kaapu Nestham",
+        "color":"kaapu.jpg",
+        "details": {
+          "Name": "Jane",
+          "Education": "MBA"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Pavananna Pention",
+        "color":"pension.jpg",
+        "details": {
+          "Name": "Alice",
+          "Education": "Ph.D."
+        }
+      },
+      {
+        "id": 5,
+        "name": "Arogyasri",
+        "color":"health.jpg",
+        "details": {
+          "Name": "Bob",
+          "Education": "B.Com"
+        }
+      }
+    ]
+  }
+  
