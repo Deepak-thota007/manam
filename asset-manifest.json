@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/manam/static/css/main.d78f6f07.css",
-    "main.js": "/manam/static/js/main.c218ed6c.js",
+    "main.js": "/manam/static/js/main.e9bcfb89.js",
     "static/js/453.f0e33eac.chunk.js": "/manam/static/js/453.f0e33eac.chunk.js",
+    "static/media/medical.jpg": "/manam/static/media/medical.11677beb1e1991795b98.jpg",
     "static/media/home.jpg": "/manam/static/media/home.3ef070a86772932d7b78.jpg",
     "static/media/ammavadi.jpg": "/manam/static/media/ammavadi.ea3a6fbf614c0a5c9cb9.jpg",
     "static/media/kaapu.jpg": "/manam/static/media/kaapu.c6caf2ba4e49e9159f64.jpg",
     "static/media/raithu.jpg": "/manam/static/media/raithu.630d65b6757c1e8f2a0b.jpg",
     "static/media/pension.jpg": "/manam/static/media/pension.59c2de1e4a1bc69c29b1.jpg",
     "static/media/Kapu.jpg": "/manam/static/media/Kapu.382b05d4ef8f91c22a45.jpg",
+    "static/media/hospital.jpg": "/manam/static/media/hospital.0caf352ddb61c7db0bfe.jpg",
     "static/media/health.jpg": "/manam/static/media/health.febe1694ab0395c3da31.jpg",
     "static/media/former.jpg": "/manam/static/media/former.0e1750fcbe1b1d9a7da2.jpg",
     "index.html": "/manam/index.html",
     "main.d78f6f07.css.map": "/manam/static/css/main.d78f6f07.css.map",
-    "main.c218ed6c.js.map": "/manam/static/js/main.c218ed6c.js.map",
+    "main.e9bcfb89.js.map": "/manam/static/js/main.e9bcfb89.js.map",
     "453.f0e33eac.chunk.js.map": "/manam/static/js/453.f0e33eac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d78f6f07.css",
-    "static/js/main.c218ed6c.js"
+    "static/js/main.e9bcfb89.js"
   ]
 }
