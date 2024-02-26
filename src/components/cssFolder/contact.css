@@ -1,0 +1,10 @@
+.contact{
+    background: linear-gradient(60deg,red,green,blue,orange,brown);
+    color: rgba(0,0,0,0.1);
+    background-clip: text;
+    
+}
+.contact h1{
+    font-family: sans-serif;
+    font-weight: 900;
+}

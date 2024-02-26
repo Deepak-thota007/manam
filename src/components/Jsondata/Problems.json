@@ -1,0 +1,31 @@
+
+{
+    "data": [
+        {
+            "id": 1,
+            "problem": "poverty",
+            "color": "poverty.jpg"
+            
+        },
+        {
+            "id": 2,
+            "problem": "illiteracy",
+            "color": "illiteracy.jpg"
+        },
+        {
+            "id": 3,
+            "problem": "unemployment",
+            "color": "unemployment.jpg"
+        },
+        {
+            "id": 4,
+            "problem": "homelessness",
+            "color": "homeless.png"
+        },
+        {
+            "id": 5,
+            "problem": "social evils",
+            "color": "evils.jpg"
+        }
+    ]
+}

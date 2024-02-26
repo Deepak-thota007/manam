@@ -57,7 +57,7 @@ const About = () => {
                       borderRadius: '10px',
                       textAlign: 'center',
                       color: '',
-                      flexGrow:1,
+                      flexGrow:1
                     }}
                   ><b>{item.name}</b>
                     <br />
