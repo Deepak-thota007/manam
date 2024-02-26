@@ -2,8 +2,9 @@ import React from 'react'
 import sevajson from './Jsondata/seva.json'
 function Seva() {
   return (
-    <div>
+    <div >
       <h3>ప్రభుత్వ అధికారుల సమాచారం</h3>
+      <div style={{ overflow:'scroll' }}>
       <table className='table table-striped table-hover'>
         <thead className='bg bg-dark text-white'>
           <tr>
@@ -26,6 +27,7 @@ function Seva() {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   )
 }

@@ -5,6 +5,7 @@ const Base = () => {
   return (
     <div className="table-responsive">
       <h2>Educational Details</h2>
+      <div style={{ overflow:'scroll' }}>
       <table className='table table-striped table-hover'>
         <thead className='bg bg-dark text-white'>
           <tr>
@@ -29,6 +30,7 @@ const Base = () => {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   );
 }
