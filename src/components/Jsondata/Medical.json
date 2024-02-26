@@ -1,0 +1,39 @@
+{
+    "data": [
+      
+      {
+        "id": 1,
+        "name": "Uday medical stores",
+        "color":"info",
+        "address": "Hnauman Junction",
+        "phno": "+91-xxxxxxxxxx",
+        "doctor": "samaram"
+      },
+      {
+        "id": 2,
+        "name": "Achuth medicals",
+        "color":"primary",
+        "address": "Rjahmundry",
+        "phno": "+91-xxxxxxxxxx",
+        "doctor": "shankar"
+      },
+      {
+        "id": 3,
+        "name": "Deepak medicals",
+        "color":"warning",
+        "address": "Rjahmundry",
+        "phno": "+91-xxxxxxxxxx",
+        "doctor": "Deepak"
+      },
+      {
+        "id": 4,
+        "name": "Hemanth medicals",
+        "color":"light",
+        "address": "Rjahmundry",
+        "phno": "+91-xxxxxxxxxx",
+        "doctor": "Hemanth"
+      }
+      
+
+    ]
+}

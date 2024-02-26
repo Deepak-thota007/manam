@@ -27,12 +27,12 @@
       {
         "id": 4,
         "name": "DhanaLakshmi nursing Home",
-        "color":"primary",
+        "color":"secondary",
         "address": "Hnauman Junction",
         "phno": "108",
         "doctor": "Balu"
       }
-      
+     
 
     ]
 }
