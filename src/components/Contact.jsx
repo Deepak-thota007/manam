@@ -1,5 +1,6 @@
 import React from 'react'
 import './cssFolder/contact.css'
+import PieChart from './PieChart1'
 
 const Contact = () => {
   return (
@@ -37,12 +38,13 @@ const Contact = () => {
         </div>
 
       </div>
-      <h1 className='text-primary text-center'>Drinking Water Timings & Details</h1>
+     <div className='contact2'> <h1 className='text-center'>Drinking Water Timings & Details</h1></div>
       <p className='text-center'>Timings:- 24/7 Available</p>
       <pre className='text-center'>Details:-<br />
         Each can:- 7 Rs (20 L)<br />
         Monthly:- 210 Rs (30 Swipes)
       </pre>
+      <PieChart/>
     </div>
   )
 }

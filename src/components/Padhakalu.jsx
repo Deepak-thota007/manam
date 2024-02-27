@@ -12,7 +12,7 @@ function Padhakalu() {
       <div className="row">
         {jsonData.data.map((item) => (
           <div
-            key={item.id}
+            key={data.id}
             className="col-12 col-md-6 col-lg-4 mb-3"
             onClick={() => {
               setFlag(true);
