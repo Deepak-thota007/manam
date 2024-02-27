@@ -4,40 +4,40 @@
             "id": 1,
             "name": "Ranga rao",
             "color": "secondary",
-            "phno":"9948216578",
+            "phno":"91602866789",
             "designation":"Former",
             "timings": "24/7"
         },
         {
-            "id": 1,
-            "name": "Ranga rao",
+            "id": 2,
+            "name": "satya",
             "color": "primary",
             "phno":"9948216578",
-            "designation":"Former",
+            "designation":"plumber",
             "timings": "24/7"
         },
         {
-            "id": 1,
-            "name": "Ranga rao",
+            "id": 3,
+            "name": "Ratya",
             "color": "success",
-            "phno":"9948216578",
-            "designation":"Former",
+            "phno":"8712264069",
+            "designation":"electrical",
             "timings": "24/7"
         },
         {
-            "id": 1,
-            "name": "Ranga rao",
+            "id": 4,
+            "name": "mathya",
             "color": "warning",
-            "phno":"9948216578",
-            "designation":"Former",
+            "phno":"9160987007",
+            "designation":"hardware",
             "timings": "24/7"
         },
         {
-            "id": 1,
-            "name": "Ranga rao",
+            "id": 5,
+            "name": "vathya",
             "color": "danger",
-            "phno":"9948216578",
-            "designation":"Former",
+            "phno":"9676956744",
+            "designation":"software",
             "timings": "24/7"
         }
     ]

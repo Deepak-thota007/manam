@@ -1,0 +1,68 @@
+
+{
+    "poverty": [
+        {
+            
+            "name": "poverty",  
+           "value": 1000
+            
+        },
+        {
+            "name": "poverty",
+           "value": 1000
+        }
+       
+    ],
+    "illiteracy":[
+        {
+            
+            "name": "poverty",
+           "value": 200000
+            
+        },
+        {
+            "name": "poverty",
+           "value": 2000
+        }
+       
+    ],
+    "unemployment":[
+        {
+            
+            "name": "poverty",
+           "value": 3000
+            
+        },
+        {
+            "name": "poverty",
+           "value": 300
+        }
+       
+    ],
+    "homelessness":[
+        {
+            
+            "name": "poverty",
+           "value": 4000
+            
+        },
+        {
+            "name": "poverty",
+           "value": 400000
+        }
+       
+    ],
+    "social evils":[
+        {
+            
+            "name": "poverty",
+           "value": 50
+            
+        },
+        {
+            "name": "poverty",
+           "value": 5000
+        }
+       
+    ]
+}

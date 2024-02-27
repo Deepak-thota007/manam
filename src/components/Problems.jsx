@@ -17,7 +17,7 @@ function Problems() {
       <div
         key={item.id}
         className="col-12 col-md-6 col-lg-4 mb-3"
-        onClick={() => { setFlag(true); }}
+        onClick={() => { setFlag(true); setData(item.problem) }}
       >
         <div
           className={`card container`}
@@ -39,8 +39,8 @@ function Problems() {
 ) : (
   
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-  <PieChart1 />
-  <button className='btn btn-primary mt-3' onClick={() => { setFlag(false); }}>Back to Problems Menu</button>
+  <PieChart1 inner_data= {data} outer_data = {data}/>
+  <button className='btn btn-primary mt-3' onClick={() => { setFlag(false); setData() }}>Back to Problems Menu</button>
 </div>
 )}
 
