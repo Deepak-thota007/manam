@@ -16,11 +16,11 @@ function Seva() {
   return (
     <div >
       <div className='row mt-2'>
-        <h3>ప్రభుత్వ అధికారుల సమాచారం</h3>
+        <h3 className='col col-lg-6 col-md-6'>ప్రభుత్వ అధికారుల సమాచారం</h3>
         <div className=' col col-lg-6 col-md-6  row justify-content-end'>
           <input
             type='text'
-            placeholder='search'
+            placeholder='search.....'
             className='col-auto'
             value={query}
             onChange={handleInputChange}
