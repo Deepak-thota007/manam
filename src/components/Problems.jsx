@@ -37,17 +37,11 @@ function Problems() {
     ))}
   </div>
 ) : (
-  <div style={{
-    display:'flex',
-    justifyContent:'center'
-  }}>
-    <div>
-    <PieChart1/>
-    </div>
-    <div>
-    <button className='btn btn-primary' onClick={()=>{setFlag(false)}}>Back to Prblems Menu</button>
-    </div>
-  </div>
+  
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+  <PieChart1 />
+  <button className='btn btn-primary mt-3' onClick={() => { setFlag(false); }}>Back to Problems Menu</button>
+</div>
 )}
 
     </div>
