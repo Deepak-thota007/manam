@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/manam/static/css/main.e239c75e.css",
-    "main.js": "/manam/static/js/main.8e7753fb.js",
+    "main.js": "/manam/static/js/main.ea99faa7.js",
     "static/js/453.1fd1f10b.chunk.js": "/manam/static/js/453.1fd1f10b.chunk.js",
     "static/media/homeless.png": "/manam/static/media/homeless.39ff03b0e23fd14fa75f.png",
     "static/media/medical.jpg": "/manam/static/media/medical.11677beb1e1991795b98.jpg",
     "static/media/home.jpg": "/manam/static/media/home.3ef070a86772932d7b78.jpg",
     "static/media/login.jpg": "/manam/static/media/login.789cabdab6c9f7266083.jpg",
+    "static/media/User.jpg": "/manam/static/media/User.826511f6d29e8f7f2d0a.jpg",
     "static/media/ammavadi.jpg": "/manam/static/media/ammavadi.ea3a6fbf614c0a5c9cb9.jpg",
     "static/media/kaapu.jpg": "/manam/static/media/kaapu.c6caf2ba4e49e9159f64.jpg",
     "static/media/illiteracy.jpg": "/manam/static/media/illiteracy.24a415d06e7a578145b5.jpg",
@@ -21,11 +22,11 @@
     "static/media/poverty.jpg": "/manam/static/media/poverty.2fcb822e792ffe0bff6c.jpg",
     "index.html": "/manam/index.html",
     "main.e239c75e.css.map": "/manam/static/css/main.e239c75e.css.map",
-    "main.8e7753fb.js.map": "/manam/static/js/main.8e7753fb.js.map",
+    "main.ea99faa7.js.map": "/manam/static/js/main.ea99faa7.js.map",
     "453.1fd1f10b.chunk.js.map": "/manam/static/js/453.1fd1f10b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e239c75e.css",
-    "static/js/main.8e7753fb.js"
+    "static/js/main.ea99faa7.js"
   ]
 }
