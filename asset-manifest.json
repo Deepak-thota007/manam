@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/manam/static/css/main.e239c75e.css",
-    "main.js": "/manam/static/js/main.07ea279f.js",
+    "main.js": "/manam/static/js/main.8e7753fb.js",
     "static/js/453.1fd1f10b.chunk.js": "/manam/static/js/453.1fd1f10b.chunk.js",
     "static/media/homeless.png": "/manam/static/media/homeless.39ff03b0e23fd14fa75f.png",
     "static/media/medical.jpg": "/manam/static/media/medical.11677beb1e1991795b98.jpg",
@@ -21,11 +21,11 @@
     "static/media/poverty.jpg": "/manam/static/media/poverty.2fcb822e792ffe0bff6c.jpg",
     "index.html": "/manam/index.html",
     "main.e239c75e.css.map": "/manam/static/css/main.e239c75e.css.map",
-    "main.07ea279f.js.map": "/manam/static/js/main.07ea279f.js.map",
+    "main.8e7753fb.js.map": "/manam/static/js/main.8e7753fb.js.map",
     "453.1fd1f10b.chunk.js.map": "/manam/static/js/453.1fd1f10b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e239c75e.css",
-    "static/js/main.07ea279f.js"
+    "static/js/main.8e7753fb.js"
   ]
 }
