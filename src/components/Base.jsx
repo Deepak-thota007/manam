@@ -10,8 +10,8 @@ const Base = () => {
   // Function to filter data based on query
   const filterData = (data) => {
     return data.filter((item) =>
-      Object.values(item.details).some(value=> value.toString().toLowerCase().includes(query.toString().toLowerCase())
-    )
+      Object.values(item.details).some(value => value.toString().toLowerCase().includes(query.toString().toLowerCase())
+      )
     );
   };
 
@@ -54,7 +54,8 @@ const Base = () => {
           </tbody>
         </table>
       </div>
-    </div>
+     
+    </div >
   );
 }
 

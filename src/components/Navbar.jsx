@@ -11,6 +11,9 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+              <Link className="nav-link" to="/manam/admin">🦁admin</Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/manam/base">📚 విద్య</Link>
             </li>
@@ -23,7 +26,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/manam/problem">🤦‍♂️ సమస్యలు</Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item"> 
               <Link className="nav-link" to="/manam/polacy">📝 పఢకాలు</Link>
             </li>
             <li className="nav-item">

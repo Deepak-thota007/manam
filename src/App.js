@@ -11,6 +11,7 @@ import Problems from './components/Problems'
 import Padhakalu from './components/Padhakalu'
 import Home from './components/Home'
 import Seva from './components/Seva'
+import Admin from './components/Admin'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Title/>
       <Routes> 
       <Route path = '/manam' element = {<Home/>}/>
+      <Route path = '/manam/admin' element = {<Admin/>}/>
          <Route path = '/manam/base' element = {<Base/>}/>
         <Route path = '/manam/contact' element = {<Contact/>}/>
         <Route path = '/manam/about' element = {<About/>}/>

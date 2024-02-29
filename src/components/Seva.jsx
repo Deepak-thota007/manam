@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import sevajson from './Jsondata/seva.json'
+import ServerPush from './ServerPush';
 function Seva() {
   const [query, setQuery] = useState('');
   // Function to handle input change
@@ -51,6 +52,7 @@ function Seva() {
           </tbody>
         </table>
       </div>
+      <ServerPush/>
     </div>
   )
 }

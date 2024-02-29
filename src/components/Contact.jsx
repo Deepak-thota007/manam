@@ -44,7 +44,6 @@ const Contact = () => {
         Each can:- 7 Rs (20 L)<br />
         Monthly:- 210 Rs (30 Swipes)
       </pre>
-      <PieChart/>
     </div>
   )
 }
