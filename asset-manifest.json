@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/manam/static/css/main.5affcf36.css",
-    "main.js": "/manam/static/js/main.c8c18659.js",
+    "main.css": "/manam/static/css/main.65cb9f3a.css",
+    "main.js": "/manam/static/js/main.51ad5a8f.js",
     "static/js/453.1fd1f10b.chunk.js": "/manam/static/js/453.1fd1f10b.chunk.js",
     "static/media/homeless.png": "/manam/static/media/homeless.39ff03b0e23fd14fa75f.png",
     "static/media/medical.jpg": "/manam/static/media/medical.11677beb1e1991795b98.jpg",
     "static/media/home.jpg": "/manam/static/media/home.3ef070a86772932d7b78.jpg",
     "static/media/login.jpg": "/manam/static/media/login.789cabdab6c9f7266083.jpg",
     "static/media/User.jpg": "/manam/static/media/User.826511f6d29e8f7f2d0a.jpg",
+    "static/media/jaydeep.jpg": "/manam/static/media/jaydeep.826511f6d29e8f7f2d0a.jpg",
     "static/media/ammavadi.jpg": "/manam/static/media/ammavadi.ea3a6fbf614c0a5c9cb9.jpg",
     "static/media/kaapu.jpg": "/manam/static/media/kaapu.c6caf2ba4e49e9159f64.jpg",
     "static/media/illiteracy.jpg": "/manam/static/media/illiteracy.24a415d06e7a578145b5.jpg",
@@ -20,13 +21,14 @@
     "static/media/former.jpg": "/manam/static/media/former.0e1750fcbe1b1d9a7da2.jpg",
     "static/media/evils.jpg": "/manam/static/media/evils.c96ff0909d2ca26d3bcd.jpg",
     "static/media/poverty.jpg": "/manam/static/media/poverty.2fcb822e792ffe0bff6c.jpg",
+    "static/media/hemanth.jpg": "/manam/static/media/hemanth.5782d6e904ab5f5e2de2.jpg",
     "index.html": "/manam/index.html",
-    "main.5affcf36.css.map": "/manam/static/css/main.5affcf36.css.map",
-    "main.c8c18659.js.map": "/manam/static/js/main.c8c18659.js.map",
+    "main.65cb9f3a.css.map": "/manam/static/css/main.65cb9f3a.css.map",
+    "main.51ad5a8f.js.map": "/manam/static/js/main.51ad5a8f.js.map",
     "453.1fd1f10b.chunk.js.map": "/manam/static/js/453.1fd1f10b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5affcf36.css",
-    "static/js/main.c8c18659.js"
+    "static/css/main.65cb9f3a.css",
+    "static/js/main.51ad5a8f.js"
   ]
 }
