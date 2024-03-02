@@ -1,8 +1,11 @@
 import React from 'react'
+import ServerPush from './ServerPush'
 
 const Operations = () => {
   return (
-    <div>Admin Operations Page</div>
+    <div>
+        <ServerPush/>
+    </div>
   )
 }
 

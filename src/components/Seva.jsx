@@ -1,8 +1,16 @@
-import React,{useState} from 'react'
-import sevajson from './Jsondata/seva.json'
-import ServerPush from './ServerPush';
+import axios from 'axios';
+import React,{useEffect, useState} from 'react'
+// import sevajson from './Jsondata/seva.json'
+
 function Seva() {
   const [query, setQuery] = useState('');
+  const [sevajson,setSevaJson] = useState([]);
+
+  useEffect(() => {
+    axios.get('https://server-cnbb.onrender.com/sample')
+      .then((response) => setSevaJson(response.data))
+      .catch((error) => console.error('Error fetching data:', error));
+  }, [sevajson]);
   // Function to handle input change
   const handleInputChange = (event) => {
     setQuery(event.target.value);
@@ -40,7 +48,7 @@ function Seva() {
             </tr>
           </thead>
           <tbody>
-            {filterData (sevajson.data).map((item) => (
+            {filterData (sevajson).map((item) => (
               <tr key={item.id} className={`table table-${item.color}`}>
                 <td>{item.id}</td>
                 <td>{item.name}</td>
@@ -52,7 +60,6 @@ function Seva() {
           </tbody>
         </table>
       </div>
-      <ServerPush/>
     </div>
   )
 }

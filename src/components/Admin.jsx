@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 // import { Redirect } from 'react-router-dom';
 import loginData from './Jsondata/Login.json';
-import {Link,useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 
 const Admin = () => {
     const [passwordtype, setPasswordType] = useState('password');
     const [icon, setIcon] = useState('eye-slash');
     const [uname, setUname] = useState('');
     const [avatar, setAvatar] = useState('User');
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    // const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [redirectTo, setRedirectTo] = useState('');
     const navigate = useNavigate();
     const [upassword,setUpassword] = useState('')
@@ -16,26 +16,29 @@ const Admin = () => {
 
     const usernames = loginData.data.map(item => item.uname.toLowerCase());
 
-    const handleLogin = () => {
+    const handleLogin = (e) => {
+        e.preventDefault()
         const foundUser = uname.toLowerCase() && usernames.includes(uname.toLowerCase());
         if (foundUser) {
-            setIsLoggedIn(true);
+            // setIsLoggedIn(true);
             setRedirectTo('/manam/Operations'); // Redirect to the dashboard after successful login
         } else {
             console.log('User not found');
         }
         if(foundUser){
-            const index = loginData.data.findIndex(item => item.uname.toLowerCase() == uname.toLowerCase());
+            const index = loginData.data.findIndex(item => item.uname.toLowerCase() === uname.toLowerCase());
            setPassword(loginData.data[index]['password'])
+          
         }
-        if (redirectTo && upassword == password ) {
-            console.log(redirectTo);
-            navigate(redirectTo)
-        }
+        
     };
+    useEffect(() => {
+        if (redirectTo && upassword === password) {
+            navigate(redirectTo);
+        }
+    }, [redirectTo, upassword, password, navigate]);
 
    
-
     return (
         <div className='' style={{
             margin: 0,
@@ -80,7 +83,7 @@ const Admin = () => {
                 </div>
                 <br />
                 <div>
-                    <form onSubmit={(e) => { e.preventDefault(); handleLogin(); }}>
+                    <form onSubmit={(e) => { e.preventDefault(); handleLogin(e); }}>
                         <div className="form-group mx-5 my-5">
                             <input
                                 type="text"
