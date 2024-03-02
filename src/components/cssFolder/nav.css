@@ -1,17 +1,17 @@
 .nav-item{
-    color: black;
+    /* color: white; */
     text-decoration: none;
-    padding: 8px 16px;
+    padding: 8px 10px;
     border-radius: 22px;
 }
 .nav-item:hover{
     transition: 0.25s;
-    background: rgb(56,130,209);
-    color: white;
+    background: rgb(249, 250, 251);
+    /* color: white; */
 }
 .nav-link{
-    color: black;
+    color:white;
 }
 .navbar-brand{
-    color: black;
+    color: white;
 }

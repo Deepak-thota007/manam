@@ -1,36 +1,65 @@
-import React from 'react';
+import React, { useState } from 'react';
+// import { Redirect } from 'react-router-dom';
+import loginData from './Jsondata/Login.json';
+import {Link,useNavigate} from 'react-router-dom'
 
 const Admin = () => {
+    const [passwordtype, setPasswordType] = useState('password');
+    const [icon, setIcon] = useState('eye-slash');
+    const [uname, setUname] = useState('');
+    const [avatar, setAvatar] = useState('User');
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const [redirectTo, setRedirectTo] = useState('');
+    const navigate = useNavigate();
+    const [upassword,setUpassword] = useState('')
+    const [password,setPassword] = useState('')
+
+    const usernames = loginData.data.map(item => item.uname.toLowerCase());
+
+    const handleLogin = () => {
+        const foundUser = uname.toLowerCase() && usernames.includes(uname.toLowerCase());
+        if (foundUser) {
+            setIsLoggedIn(true);
+            setRedirectTo('/manam/Operations'); // Redirect to the dashboard after successful login
+        } else {
+            console.log('User not found');
+        }
+        if(foundUser){
+            const index = loginData.data.findIndex(item => item.uname.toLowerCase() == uname.toLowerCase());
+           setPassword(loginData.data[index]['password'])
+        }
+        if (redirectTo && upassword == password ) {
+            console.log(redirectTo);
+            navigate(redirectTo)
+        }
+    };
+
+   
 
     return (
-        <div
-            className=''
-            style={{
-                margin: 0,
-                padding: 0,
-                backgroundImage: `url(${require('../images/login.jpg')})`,
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center',
-                height: '100vh',  // Ensure the container fills the viewport height
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-            }}
-        >
-            <div
-                style={{
-                    width: '80%', // Adjust the width to 80% of the parent container
-                    maxWidth: '600px', // Set maximum width for larger screens
-                    height: '70%', // Set height to 70% of the parent container
-                    boxSizing: 'border-box',
-                    overflow: 'auto',
-                    borderRadius: '30px',
-                    backgroundColor: 'rgba(161,159,159,0.5)',
-                    backdropFilter: 'blur(8px)',
-                    textAlign: 'center',
-                }}
-            >
+        <div className='' style={{
+            margin: 0,
+            padding: 0,
+            backgroundImage: `url(${require('../images/login.jpg')})`,
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            height: '100vh',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+        }}>
+            <div style={{
+                width: '80%',
+                maxWidth: '600px',
+                height: '70%',
+                boxSizing: 'border-box',
+                overflow: 'auto',
+                borderRadius: '30px',
+                backgroundColor: 'rgba(161,159,159,0.5)',
+                backdropFilter: 'blur(8px)',
+                textAlign: 'center',
+            }}>
                 <div style={{
                     display: 'flex',
                     justifyContent: 'center',
@@ -38,7 +67,7 @@ const Admin = () => {
                 }} >
                     <div
                         style={{
-                            backgroundImage: `url(${require('../images/User.jpg')})`,
+                            backgroundImage: `url(${require('../images/' + avatar + '.jpg')})`,
                             borderRadius: '50%',
                             marginTop: '8%',
                             width: '6em',
@@ -51,27 +80,58 @@ const Admin = () => {
                 </div>
                 <br />
                 <div>
-                    <form>
-                        <div class="form-group mx-5 my-5">
+                    <form onSubmit={(e) => { e.preventDefault(); handleLogin(); }}>
+                        <div className="form-group mx-5 my-5">
                             <input
-                                type="email"
-                                class="form-control"
+                                type="text"
+                                className="form-control"
                                 style={{ borderRadius: '20px' }}
-                                id="exampleInputEmail1"
-                                aria-describedby="emailHelp"
                                 placeholder="Enter email"
+                                onChange={(e) => { setUname(e.target.value); }}
                             />
                         </div>
-                        <div class="form-group mx-5 my-5">
+                        <div className="form-group mx-5 my-5" style={{ position: 'relative' }}>
                             <input
-                                type="password"
-                                class="form-control"
+                                type={passwordtype}
+                                className="form-control"
                                 style={{ borderRadius: '20px' }}
                                 id="exampleInputPassword1"
                                 placeholder="Password"
+                                onMouseOver={() => {
+                                    const foundUser = uname && usernames.find(item => item.toLowerCase() === uname.toLowerCase());
+                                    if (foundUser) {
+                                        setAvatar(foundUser.toLowerCase());
+                                        console.log(avatar);
+                                    } else {
+                                        console.log('User not found');
+                                    }
+                                }}
+                                onChange = {(e)=>setUpassword(e.target.value)}
+                                required
                             />
+                            <i style={{
+                                position: 'absolute',
+                                right: '10px',
+                                top: '50%',
+                                transform: 'translateY(-50%)',
+                                cursor: 'pointer'
+                            }} className={`bi bi-${icon}`} onClick={() => {
+                                if (passwordtype !== 'password') {
+                                    setPasswordType('password')
+                                }
+                                else {
+                                    setPasswordType('text')
+                                };
+                                if (icon !== 'eye') {
+                                    setIcon('eye')
+                                }
+                                else { setIcon('eye-slash') }
+                            }}
+                            required></i>
                         </div>
-                        <button type="submit" class="btn btn-primary my-4 px-5">Login</button>
+
+                        <button type="submit" className="btn btn-primary my-1 px-5 btn-lg" style={{ borderRadius: '20px' }} 
+                        >Login</button>
                     </form>
                 </div>
             </div>

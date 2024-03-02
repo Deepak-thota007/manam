@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "uname": "Deepak",
+            "password": "Aradhya@1234"
+        },
+        {
+            "uname": "Hemanth",
+            "password": "Hemanth@1234"
+        },
+        {
+            "uname": "JayDeep",
+            "password": "Sai@1234"
+        }
+    ]
+}
